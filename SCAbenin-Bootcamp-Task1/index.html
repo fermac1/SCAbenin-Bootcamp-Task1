@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SCAbenin Bootcamp Task1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+<body>
+
+        <div class="first">
+            JavaScript can be used to change HTML content using the method <b>getElementById() or getElementByClassName()</b>.
+            This method is used to find an HTML element with a specified <b>Id</b> or <b>Class Name</b> 
+            either to change the element content, style or HTML Attribute Value.
+            It can also be used to hide and show HTML element changing the display style.
+        </div>
+
+        <div class="second">
+            For internal scripting, a script tag is used <b>&lt;script&gt; &lt;/script&gt;</b>
+            where the JavaScript code is inserted between the opening and closing tag.
+            This can be placed in the &lt;head&gt; or &lt;body&gt; section of an HTML page.
+            Scripts can also be placed in external files with file extension <b>.js</b>,
+            where the name of the script file is placed in the <b>src</b> attribute of the script tag.
+            Syntax:
+            <b>&lt;script src=""&gt; &lt;/script&gt;</b>
+            <ul>
+            The advantage of external scripts over internal scripts:
+            <li>It makes HTML and JavaScript easier to read</li>
+            <li>Several script files can be added to one page</li>
+
+            </ul>
+            JavaScript functions are blocks of code that are executed when called.
+        </div>
+
+        <div class="first">
+            JavaScript can display data in different ways: <b>innerHTML</b> which writes into an HTML element, 
+            <b>document.write()</b> which writes into HTML output, <b>window.alert()</b> which writes into an alert box
+            and <b>console.log()</b> which writes into the browser console for the purpose of debuggging. <br>
+
+            Using <b>document.write()</b> when an HTML document is loaded will delete all existing HTML.
+            So it is advised to use only when testing.
+        </div>
+
+        <div class="second">
+            JavaScript program is a list of programming statement and this statements are composed of 
+            keywords, values, operators, expressions, comments.<br>
+            This statement often start with a keyword which identifies the action to be performed.<br>
+            JavaScript ignores white spaces but they can be used to make the code readable.
+
+        </div>
+
+        <div class="first">
+            JavaScript syntax is the set of rules on how JavaScript programs are constructed.
+            It defines two types of values: Fixed values and Variable values.
+            The Fixed values are called literals while the Variable values are called variables.<br>
+
+            JavaScript expression is a combination of values, variables and operators which compute to a value.<br>
+
+            JavaScript comments are statements that are not executed. They begin with either a <b>//</b> or 
+            written between <b>/* */</b>
+            <ul>
+                <li>They can be used to explain JavaScript code and make it more readable.</li>
+                <li>They can also be used to prevent execution while testing an alternative code.</li>
+                <li>Single line comments start with <b>//</b></li>
+                <li>Multi-line comments start with <b>/*</b> and ends with <b>*/</b></li>
+            </ul>
+            
+            JavaScript Identifiers are used to name variables, keywords, functions and labels.
+            
+            The first character must be a letter, underscore(_) or dollar sign($). Numbers are not allowed as first character.
+            
+            JavaScript is Case Sensitive.<br>
+
+            When joining multiple words into one variable name, hyphens(-) are not allowed.
+            Underscore and Camel case are used instead.
+
+        </div>
+    
+        <div class="second">
+            JavaScript Variables are containers for storing data values.<br>
+            <b>
+                var productName = Nivea;
+            </b><br>
+            The above syntax simply means the variable <b>productName</b> is being declared and the assignement operator (=) assigns a value to it.
+            If a value isn't assigned then the variable <b>productName</b> is <b>Undefined.</b>
+
+        </div>
+    
+        <div class="first">
+            <h3>JavaScript Operators</h3>
+            <table>
+                <tr>
+                    <th> Operator </th>
+                    <th> Description </th>
+                </tr>
+                <tr>
+                    <td> + </td>
+                    <td> Addition </td>
+                </tr>
+                <tr>
+                        <td> - </td>
+                        <td> Subtraction </td>
+                </tr>
+                <tr>
+                        <td> / </td>
+                        <td> Division </td>
+                </tr>
+                <tr>
+                        <td> * </td>
+                        <td> Multiplication </td>
+                </tr>
+                <tr>
+                        <td> ** </td>
+                        <td> Exponential </td>
+                </tr>
+                <tr>
+                        <td> % </td>
+                        <td> Modulus </td>
+                </tr>
+                <tr>
+                        <td> ++ </td>
+                        <td> Increment </td>
+                </tr>
+                <tr>
+                        <td> -- </td>
+                        <td> Decrement </td>
+                </tr>
+            </table>
+
+            <p> Assignment operator can also be attached to this operators where the assignment operator comes after the operator itself.<br>
+                For example:<br>
+                <b> x += y</b> this is also the same as <b> x = x + y</b><br><br>
+                The <b>+</b> operator can also be used to concatenate strings.
+            </p>
+            
+            <h3>JavaScript Comparison Operators</h3>
+            <table>
+                    <tr>
+                        <th> Operator </th>
+                        <th> Description </th>
+                    </tr>
+                    <tr>
+                        <td> == </td>
+                        <td> equal to </td>
+                    </tr>
+                    <tr>
+                            <td> === </td>
+                            <td> equal value and equal type </td>
+                    </tr>
+                    <tr>
+                            <td> != </td>
+                            <td> not equal </td>
+                    </tr>
+                    <tr>
+                            <td> !== </td>
+                            <td> not equal value or not equal type </td>
+                    </tr>
+                    <tr>
+                            <td> ? </td>
+                            <td> tenary operator </td>
+                    </tr>
+                    <tr>
+                            <td> &gt;, &lt; </td>
+                            <td> greater than, less than </td>
+                    </tr>
+                    <tr>
+                            <td> &gt;= , &lt;= </td>
+                            <td> greater than or equal to, less than or equal to </td>
+                    </tr>
+                
+                </table>
+
+                <p>
+                    <h3>JavaScript logical Operators</h3>
+                    <table>
+                        <tr> 
+                            <th>Operator</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>&amp; &amp;</td>
+                            <td>logical and</td>
+                        </tr>
+                        <tr>
+                            <td>||</td>
+                            <td>logical or</td>
+                        </tr>
+                        <tr>
+                            <td>!</td>
+                            <td>logical not</td>
+                        </tr>
+                    </table>
+                </p>
+                 The operator <b>typeof</b> returns the type of a variable.
+        </div>
+
+    <div class="second">
+        The numbers in an arithmetic operation are called Operands.
+        Operator precedence describes the order in which an expression is executed.
+        Multiplication and division have higher precedence than addition and subtraction. 
+        When a parentheses is used, the operation inside the parentheses is computed first.
+    </div>
+</body>
+</html>

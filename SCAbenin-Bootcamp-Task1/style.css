@@ -1,0 +1,19 @@
+.first{
+    background: #E3DBD3;
+    margin: 3px;
+    padding: 5px 10px;
+    font-family: Montserrat;
+    font-weight: lighter;
+}
+.second{
+    background: #9D7982;
+    margin: 3px;
+    padding: 5px 10px;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
+    padding: 5px;
+}
