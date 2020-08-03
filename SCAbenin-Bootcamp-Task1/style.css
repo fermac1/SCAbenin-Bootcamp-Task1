@@ -8,7 +8,11 @@
 .second{
     background: #9D7982;
     margin: 3px;
+    font-family: Montserrat;
     padding: 5px 10px;
+}
+i{
+    color: brown;
 }
 table{
     border-collapse: collapse;
